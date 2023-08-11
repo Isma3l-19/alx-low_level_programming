@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
+#include <stdio.h>
 /**
  * main - A program that checks the sign of a number
  *
@@ -23,7 +22,7 @@ int main(void)
 	}
 	else
 	{
-		ptintf("is negative\n");
+		printf("is negative\n");
 	}
 	return (0);
 }
