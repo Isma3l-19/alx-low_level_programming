@@ -1,1 +1,1 @@
-A readme file in about nested loops and functions
+This project is about nested loops and functions in c programming language
