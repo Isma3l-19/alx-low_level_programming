@@ -3,7 +3,7 @@
  * add - A program that computes addittion
  * @a: the number to be computed
  * @b: the number to be computed
- * Return: 0 (Success)
+ * Return: sum of a and b
  */
 int add(int a, int b)
 {
