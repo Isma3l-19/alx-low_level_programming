@@ -1,4 +1,7 @@
 #include "main.h"
+
+/*Declaring the _putchar function*/
+int _putchar(char c);
 /**
  * print_rev - prints a string in reverse
  * @s: the sring to be checked
