@@ -4,7 +4,7 @@
  * @s: the string to be converted
  * Return: the converted string
  */
-int _atoi(chnar *s)
+int _atoi(char *s)
 {
 	int a, b, c, len, d, digit = 0;
 
