@@ -19,11 +19,11 @@ int find_sqrt(int num, int root)
 	return (find_sqrt(num, root + 1));
 			}
 			/**
-			 *  _sqrt_recursion - a function that finds the square root of a number
+			 *  _sqrt_recursion - a function that returns the natural square root
 			 *  @n: input value
 			 *   Return: -1 if n != natural square root
 			 */
-			int _sqrt_recursion(int n)
+			int _sqrt_recursion(int n);
 			{
 				int root = 0;
 
