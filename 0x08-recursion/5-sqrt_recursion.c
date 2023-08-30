@@ -23,7 +23,7 @@ int find_sqrt(int num, int root)
 			 *  @n: input value
 			 *   Return: -1 if n != natural square root
 			 */
-			int _sqrt_recursion(int n);
+			int _sqrt_recursion(int n)
 			{
 				int root = 0;
 
