@@ -1,1 +1,1 @@
-0x09. C - Static libraries - talks more about static and dynamic libraries in c
+0x09-static_libraries - This project is all about static libraries and a little dynamic libraries and how to create them
