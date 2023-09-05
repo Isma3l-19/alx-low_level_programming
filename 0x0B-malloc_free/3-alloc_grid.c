@@ -6,7 +6,7 @@
  * @height: input value
  * Return: NULL on failure
  */
-int **alloc_grind(int width, int height)
+int **alloc_grid(int width, int height)
 {
 	int i, j;
 	int **ptr;
