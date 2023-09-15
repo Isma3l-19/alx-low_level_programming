@@ -1,4 +1,4 @@
-#include "function_pointers"
+#include "function_pointers.h"
 #include <stdio.h>
 /**
  * array_iterator - a function that prints each array element on a newline
