@@ -1,7 +1,11 @@
 #ifndef dog
 #define dog
+
 /**
- * dog - it is a structure
+ * struct dog - A structure representing information about a dog.
+ * @name: The name of the dog (a string).
+ * @age: The age of the dog (a floating-point number).
+ * @owner: The owner of the dog (a string).
  */
 struct dog
 {
