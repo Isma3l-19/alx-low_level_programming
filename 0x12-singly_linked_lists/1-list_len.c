@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 /**
  * list_len - a function that returns the number of elements in list_t list
  * @h: pointer to the list_t
