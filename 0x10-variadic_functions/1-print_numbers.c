@@ -10,19 +10,22 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list store;
-	unsigned int tally;
+	unsigned int i = 0;
 
 	va_start(store, n);
 
-	for (tally = 0; tally < n; tally)
+	while (i < n)
 	{
-		printf("%u", va_arg(store, int));
-		if (tally != (n - 1) && separator != NULL)
+		printf("%d", va_arg(store, int));
+		if (separator)
 		{
-			printf("%s", separator);
+			if (x < (n - 1))
+			{
+				printf("%s", separator);
+			}
 		}
+		i++;
 	}
-	printf("\n");
-
 	va_end(store);
+	printf("\n");
 }
