@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * free_grid - a function that releases of the second grid
+ * _free_grid - a function that releases of the second grid
  * @grid: array to manipulate
  * @height: array height
  * Return: 0 (Success)
  */
-void free_grid(char **grid, unsigned int height)
+void _free_grid(char **grid, unsigned int height)
 {
 	if (height != 0 && grid != NULL)
 	{
@@ -56,7 +56,7 @@ char **strtow(char *str)
 				ptr[b] = malloc((a - d + 2) * sizeof(char));
 				if (ptr[b] == NULL)
 				{
-					free_grid(ptr, b);
+					_free_grid(ptr, b);
 					return (NULL);
 				}
 				break;
