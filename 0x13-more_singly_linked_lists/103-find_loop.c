@@ -23,13 +23,10 @@ listint_t *find_listint_loop(listint_t *head)
 			while (old != fast)
 			{
 				old = old->next;
-				fast = new->next;
+				new = new->next;
 			}
 			return (new);
 		}
 	}
-
 	return (NULL);
 }
-
-
