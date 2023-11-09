@@ -5,7 +5,7 @@
  * @n: integer for the new node
  * Return: address of new element otherwise NULL
  */
-dlistint *add_dnodeint_end(dlistint_t **head, const int n)
+dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *new, *last;
 
